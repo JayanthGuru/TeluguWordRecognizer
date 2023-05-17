@@ -1,11 +1,17 @@
 ## TeluguWordRecognizer
 The Telugu OCR for recognizing Handwritten words.
 
+## step-0 create a fodler in drive and name it WordTOCR (if you wish to choose your own name, you need to change the directory name in final_Word_TOCR.ipynb file) and copy all the files in this repository.
 
 ## Step-1 Downloading Dataset
-Download the dataset from the link: https://drive.google.com/drive/folders/1OWdHJhDH-x6n257ck4avON7eIybb5aIR?usp=share_link rename the folder as "handwritten_telugu_word_dataset"
+create a new folder outside of WordTOCR and name it "handwritten_telugu_word_dataset"
+Download the dataset from the link: https://drive.google.com/drive/folders/1OWdHJhDH-x6n257ck4avON7eIybb5aIR?usp=share_link and store it in  "handwritten_telugu_word_dataset". 
 
-## Step-2 Running the file final_Word_TOCR.iynb
---> The out is stored in final_text.txt file which is automattically created by program.
+## step-3 Downloading the weights
+Download the weights form the link: https://drive.google.com/drive/folders/13lFFz8sm_9moy78HKBDtRU_Dy3opGQTF?usp=share_link rename in to Training and store it in the WordTOCR folder with final_Word_TOCR.ipynb
+
+## Step-3 Running the file final_Word_TOCR.iynb
+--> The output is stored in final_text.txt file which is automattically created by program in the WordTOCR folder.
+
 
 ### important note: GPU processers are necessory for smooth execution. To access the GPU in colab convert the runtime to GPU.
