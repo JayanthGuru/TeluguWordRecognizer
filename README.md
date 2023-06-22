@@ -1,4 +1,7 @@
 ## TeluguWordRecognizer
+
+> Note : This below instructions are intended to work on this project via Google Colab only. If you are willing to work on your personel pc please raise an issue so that I can help you
+
 The Telugu OCR for recognizing Handwritten words.
 
 ## step-0 create a fodler in drive and name it WordTOCR (if you wish to choose your own name, you need to change the directory name in final_Word_TOCR.ipynb file) and copy all the files in this repository.
